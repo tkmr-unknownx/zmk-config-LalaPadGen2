@@ -131,12 +131,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        Cond_Syslayer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
