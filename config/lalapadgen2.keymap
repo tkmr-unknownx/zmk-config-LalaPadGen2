@@ -61,15 +61,17 @@
 
         CONBO_ESC {
             bindings = <&kp ESCAPE>;
-            key-positions = <0 1 2>;
+            key-positions = <0 1>;
+            timeout-ms = <30>;
         };
 
         COMBO_TAB {
             bindings = <&kp TAB>;
-            key-positions = <11 13 12>;
+            key-positions = <11 10>;
+            timeout-ms = <30>;
         };
 
-        equal_minusa {
+        COMBO_EQ_MINUS {
             bindings = <&mt EQUAL MINUS>;
             key-positions = <9 8>;
             timeout-ms = <30>;
