@@ -141,13 +141,13 @@
         SYSTEM_LAYER {
             display-name = "system_layer";
             bindings = <
-&none  &none  &none  &none  &none                &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
-&none  &none  &none  &none  &none                &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &none
-&none  &none  &none  &none  &none                &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
-&none  &none  &none  &none  &none  &none  &none  &none                          &none                          &none                          &none                          &none
-       &none  &none  &none  &none  &none  &none  &none                          &none                          &none                          &none
-&none  &none  &none                                                                                            &none                          &none                          &none
-&none  &none  &none  &none  &none                &none                          &none                          &none                          &none                          &none
+&none  &none  &none  &none  &none                         &out OUT_TOG                   &bt BT_SEL 0                   &bt BT_SEL 1                   &bt BT_SEL 2                   &bt BT_SEL 3
+&none  &none  &none  &none  &none                         &sys_reset                     &bootloader                    &bt BT_CLR                     &bt BT_CLR_ALL                 &none
+&none  &none  &none  &none  &none                         &zip_dyn_scale ZDS_XY ZDS_INC  &zip_dyn_scale ZDS_XY ZDS_DEC  &zip_dyn_scale ZDS_SC ZDS_INC  &zip_dyn_scale ZDS_SC ZDS_DEC  &zip_dyn_scale ZDS_ALL ZDS_RST
+&none  &none  &none  &none  &none  &none  &kp KP_NUMLOCK  &none                          &none                          &none                          &none                          &none
+       &none  &none  &none  &none  &none  &none           &none                          &none                          &none                          &none
+&none  &none  &none                                                                                                     &none                          &none                          &none
+&none  &none  &none  &none  &none                         &none                          &none                          &none                          &none                          &none
             >;
         };
     };
